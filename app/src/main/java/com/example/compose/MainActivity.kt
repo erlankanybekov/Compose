@@ -18,12 +18,11 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
-import coil.annotation.ExperimentalCoilApi
 import coil.compose.rememberImagePainter
 import com.example.compose.ui.theme.ComposeTheme
 import dagger.hilt.android.AndroidEntryPoint
 
-@ExperimentalCoilApi
+
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
 
